@@ -58,7 +58,7 @@ body {
 
 
 
-/* we add style to Buttons*/
+/* we add style to the Buttons*/
 
 .button {
     display: inline-block;
@@ -66,7 +66,7 @@ body {
     margin: 10px;
     font-size: 30px;
     cursor: pointer;
-    background-color: #3794f8;
+    background-color: #569ce7;
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
@@ -76,7 +76,7 @@ body {
     
 }
 
-.button:hover {
+.button:hover:not([disabled]) {
     background-color: #0056b3;
 }
 
@@ -98,7 +98,12 @@ body {
     background-color: #36af5e;
 }
 
+/* corrects and incorrect styling */
 
-
-
+.correct {
+    background-color: rgb(39, 121, 39);
+}
+.incorrect {
+    background-color: rgb(155, 36, 36);
+}
 
