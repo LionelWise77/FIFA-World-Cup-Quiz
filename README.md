@@ -9,53 +9,70 @@ It is an interactive quiz in which you can demonstrate your knowledge about the 
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+* Featured at the top of the page , shows the H1 at the Right inline with a World Cup Background.
+* is a interactive Javascript Quiz about World cup championship football.
 
-### Existing Features
 
-- __The Love Maths Logo and Heading__
+### Header
 
-  - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
+![Header](/assets/images/H1%20and%20header%20WCQUIZ.png)
 
-![Logo](media/love_maths_logo.png)
+* the Header is the title on the right scene of the screen to notify the "FIFA World Cup Quiz" 
 
-- __The Game Area__
+  
 
-  - This section will allow the user to play the maths game. The user will be able to easily see icons for addition,  subtraction, multiplication, and division games.
-  - The user will be able to select the type of maths game they will be playing by clicking on the different icons. 
+![Logo](/assets/images/copa-mundo.webp)
 
-![Game](media/love_maths_icons.png)
+- __The Quiz Area__
 
-- __The Question section__
+  - This section will allow the user to start the Quiz . The user will be able to easily see Quetions , and four differents answer alternatives.
+  - The user will be able to select one of four answers , which just one is the correct answer. 
 
-  - The question section is where the user will be able to see the elementary arithmetic question to answer as part of the game. The user will be able answer the questions in the answer box provide
-  - The user will be able to submit their answer and a pop-up will make it known to the user if they answered correctly. 
+![Game](/assets/images/questionSection2.png)
 
-![Question](media/love_maths_question.png)
+- __The Questions section__
 
-- __The Score Area__
+  - The questions section is where the user will be able to see the related question  as part of the quiz. The user will be able choose the Right answer from four different boxes .
+  - The user will be able to select the correct answer and a pop-up will make it known to the user if they answered correctly. 
+  - The Answers will pop-up red if it is false and automatically green if it is true.
 
-  - This section will allow the user to see exactly how many correct and incorrect answers they have provided. 
+![Question](/assets/images/quizAREA.png)
 
-![score](media/love_maths_answer.png)
+- __The Score and Next button Area__
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
+  - This section will allow the user to see exactly how many correct and incorrect answers they have Scored. 
+  - when the user has selected the choose answer automatically the next button will pop-up to give way to the next Question.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![score](/assets/images/score%20and%20next.png)
 
-### Features Left to Implement
+- __The Play Again Button__
 
-- Another feature idea
+- Then when the user has finished the quiz, the total score appears and the button to play again!!
+
+![Play Again](/assets/images/playagainButton.png)
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+they Quiz works Properly and efficient !!
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+![testing lighthouse](/assets/images/lighthouseFIFA.png)
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+- the project looks good wiht a performance of 95%,
+- accesibility of 100%,
+- best practices of 100%,
+- SEO of 91%,
+
+### responsive in all screen sizes.
+
+i had issues with the background and the font style, was not enought for the accesibility i wanted so i changed the colours at the last moment.
+
+![bug](/assets/images/bugFIFA.png)
+
+also had isse wiht the handleNextButton Fucntion , because didn't want to show me the next question, and this becuase 'currentQuestion' and 'currentQuestion.answers' was 'undefined' , but i correct this Bug.
+
+
 
 
 ### Validator Testing 
