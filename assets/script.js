@@ -38,7 +38,7 @@ const questions = [
         ]
     },
     {
-        question: "Which player played most games in World Cup football?",
+        question: "Which player played most games in FIFA World Cup ?",
         answers: [
             { text: "Maradona", correct: false },
             { text: "Cristiano Ronaldo", correct: false },
@@ -137,6 +137,8 @@ function handleNextButton() {
         showScore();
     }
 }
+
+
 
 nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < questions.length) {
