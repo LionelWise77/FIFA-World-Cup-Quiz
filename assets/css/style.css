@@ -9,7 +9,7 @@
 }
 
 body {
-    background: url(/assets/images/copa-mundo.webp) center  ;
+    background: url(../images/copa-mundo.webp) center  ;
     background-size:cover;
     max-width: 1200px;
     
